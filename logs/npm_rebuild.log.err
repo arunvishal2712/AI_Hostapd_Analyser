@@ -1,0 +1,1 @@
+npm warn rebuild 13 packages have install scripts not yet covered by allowScripts. Run `npm install-scripts ls` to review.

@@ -1,0 +1,5 @@
+time: Fri Oct  9 11:33:41 2026
+HTTP 599 in 240s
+QUESTION: Give an overall report for the uploaded hostapd file
+
+no answer yet (timed out); the model may still be loading - just ask in the chat

@@ -1,0 +1,62 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20261009112919
+Username: ARUNESHWARAN\Aruneshwaran AR
+RunAs User: ARUNESHWARAN\Aruneshwaran AR
+Configuration Name: 
+Machine: ARUNESHWARAN (Microsoft Windows NT 10.0.26300.0)
+Host Application: powershell -NoProfile -ExecutionPolicy Bypass -File C:\Users\Aruneshwaran AR\Documents\hostapd-ai-analyzer\tools\launcher.ps1
+Process ID: 46760
+PSVersion: 5.1.26100.9549
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9549
+BuildVersion: 10.0.26100.9549
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+=== Hostapd AI Analyzer ===
+          runtime folder: C:\Users\Aruneshwaran AR\AppData\Local\HostapdAIAnalyzer
+
+[1/7] Python environment
+      OK  Python 3.14.2
+
+[2/7] Node.js 24
+      OK  Node v24.21.0
+
+[3/7] Flowise
+      OK  Flowise 3.1.4
+
+[4/7] Ollama models
+          chat model: llama3:latest   (override: START.cmd -ChatModel <name>)
+      OK  models ready
+
+[5/7] Current log from input_logs\
+      HOSTAPDWLR               unchanged
+      OK  current test: HOSTAPDWLR
+
+[6/7] Starting services
+          restarting bridge (pid 37644)
+PS>TerminatingError(Invoke-WebRequest): "Unable to connect to the remote server"
+          bridge is up after 5 s
+      OK  bridge   http://localhost:8811
+      OK  Flowise  http://localhost:3000
+
+[7/7] Opening the chatflow
+      chatflow 'Hostapd AI Analyzer' updated (29b31c31-98ca-4fb6-906f-753442d6b8bd)
+      OK  opened http://localhost:3000/autologin.html
+          self-test: asking the chatflow one question (up to 3 min) ...
+    self-test PROBLEM (240s), question: Give an overall report for the uploaded hostapd file
+      | no answer yet (timed out); the model may still be loading - just ask in the chat
+    full answer saved to logs\selftest_answer.txt
+      OK  opened the Workbench http://localhost:8811/ui (tables, charts, timeline + AI chat)
+
+  Ready. Current test: HOSTAPDWLR
+  Workbench: http://localhost:8811/ui  -  full visual report: http://localhost:8811/report
+  Flowise chat still works: purple chat button (top right of the canvas); each answer links to its visual view.
+  New log: put it in input_logs\ (newest file = current test) and run START.cmd again. Stop: STOP.cmd
+**********************
+Windows PowerShell transcript end
+End time: 20261009113341
+**********************

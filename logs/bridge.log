@@ -1,0 +1,40 @@
+[09/10/2026 11:29:27,72] starting bridge 
+C:\Users\Aruneshwaran AR\Documents\hostapd-ai-analyzer\bridge\app.py:702: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+INFO:     Started server process [18308]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8811 (Press CTRL+C to quit)
+INFO:     127.0.0.1:57915 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58423 - "GET /local/flowise-login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55987 - "POST /context HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54511 - "GET /ui HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54511 - "GET /tests HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50256 - "POST /validate HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63148 - "POST /view HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56185 - "POST /context HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59758 - "POST /validate HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56176 - "POST /ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61976 - "GET /report HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61976 - "POST /view HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56024 - "GET /tests HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65066 - "GET /log/context?line=407285&n=12&test_id=latest HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64853 - "GET /log/context?line=4726736&n=12&test_id=latest HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63011 - "GET /timeline HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63011 - "GET /tests HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63238 - "GET /timeline/clients?test_id=latest HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63238 - "GET /timeline/client/2C%3AA7%3AEF%3A3A%3A7A%3ADB?test_id=latest&offset=0&limit=300 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58846 - "GET /timeline/client/C8%3AA1%3ADC%3A10%3AD1%3A47?test_id=latest&kinds=connect,disconnect,deauth,linkloss,failure,roam,ap&offset=0&limit=300 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58706 - "GET /timeline/client/78%3AED%3ABC%3A06%3A03%3A4D?test_id=latest&kinds=connect,disconnect,deauth,linkloss,failure,roam,ap&offset=0&limit=300 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54387 - "GET /log/context?line=583420&n=12&test_id=latest HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61870 - "POST /view HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51382 - "POST /context HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50361 - "POST /validate HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51380 - "POST /ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50619 - "GET /log/context?line=407285&n=12&test_id=latest HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52246 - "GET /report/events HTTP/1.1" 200 OK

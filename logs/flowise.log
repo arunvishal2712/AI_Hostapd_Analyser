@@ -1,0 +1,255 @@
+[07/10/2026 22:48:46,25] starting Flowise (first start on Windows can take several minutes) 
+2026-10-07 22:59:32 [INFO]: Starting Flowise...
+2026-10-07 22:59:33 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-10-07 22:59:33 [INFO]: 🔄 [server]: Database migrations completed successfully
+2026-10-07 22:59:33 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2026-10-07 22:59:43 [ERROR]: ❌ [server]: Error during initDatabase with file C:\Users\Aruneshwaran AR\AppData\Local\HostapdAIAnalyzer\flowise\node_modules\flowise-components\dist\nodes\agents\ReActAgentChat\ReActAgentChat.js: Package subpath './utils/uuid' is not defined by "exports" in C:\Users\Aruneshwaran AR\AppData\Local\HostapdAIAnalyzer\flowise\node_modules\flowise-components\node_modules\@langchain\core\package.json
+Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: Package subpath './utils/uuid' is not defined by "exports" in C:\Users\Aruneshwaran AR\AppData\Local\HostapdAIAnalyzer\flowise\node_modules\flowise-components\node_modules\@langchain\core\package.json
+    at exportsNotFound (node:internal/modules/esm/resolve:315:10)
+    at packageExportsResolve (node:internal/modules/esm/resolve:663:9)
+    at resolveExports (node:internal/modules/cjs/loader:754:36)
+    at Module._findPath (node:internal/modules/cjs/loader:821:31)
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1557:27)
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1118:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1142:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1169:12)
+    at Module._load (node:internal/modules/cjs/loader:1341:5)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+    at Module.require (node:internal/modules/cjs/loader:1674:12)
+    at require (node:internal/modules/helpers:157:16)
+    at Object.<anonymous> (C:\Users\Aruneshwaran AR\AppData\Local\HostapdAIAnalyzer\flowise\node_modules\flowise-components\node_modules\langchain\node_modules\@langchain\langgraph-checkpoint\dist\id.cjs:1:34)
+    at Module._compile (node:internal/modules/cjs/loader:1929:14)
+    at Object..js (node:internal/modules/cjs/loader:2060:10)
+    at Module.load (node:internal/modules/cjs/loader:1651:32)
+2026-10-07 22:59:43 [ERROR]: ❌ [server]: Error during initDatabase with file C:\Users\Aruneshwaran AR\AppData\Local\HostapdAIAnalyzer\flowise\node_modules\flowise-components\dist\nodes\agents\ReActAgentLLM\ReActAgentLLM.js: Package subpath './utils/uuid' is not defined by "exports" in C:\Users\Aruneshwaran AR\AppData\Local\HostapdAIAnalyzer\flowise\node_modules\flowise-components\node_modules\@langchain\core\package.json
+Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: Package subpath './utils/uuid' is not defined by "exports" in C:\Users\Aruneshwaran AR\AppData\Local\HostapdAIAnalyzer\flowise\node_modules\flowise-components\node_modules\@langchain\core\package.json
+    at exportsNotFound (node:internal/modules/esm/resolve:315:10)
+    at packageExportsResolve (node:internal/modules/esm/resolve:663:9)
+    at resolveExports (node:internal/modules/cjs/loader:754:36)
+    at Module._findPath (node:internal/modules/cjs/loader:821:31)
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1557:27)
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1118:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1142:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1169:12)
+    at Module._load (node:internal/modules/cjs/loader:1341:5)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+    at Module.require (node:internal/modules/cjs/loader:1674:12)
+    at require (node:internal/modules/helpers:157:16)
+    at Object.<anonymous> (C:\Users\Aruneshwaran AR\AppData\Local\HostapdAIAnalyzer\flowise\node_modules\flowise-components\node_modules\langchain\node_modules\@langchain\langgraph-checkpoint\dist\id.cjs:1:34)
+    at Module._compile (node:internal/modules/cjs/loader:1929:14)
+    at Object..js (node:internal/modules/cjs/loader:2060:10)
+    at Module.load (node:internal/modules/cjs/loader:1651:32)
+2026-10-07 23:01:42 [ERROR]: ❌ [server]: Error during initDatabase with file C:\Users\Aruneshwaran AR\AppData\Local\HostapdAIAnalyzer\flowise\node_modules\flowise-components\dist\nodes\llms\AWSBedrock\AWSBedrock.js: Cannot find module '@smithy/eventstream-codec'
+Require stack:
+- C:\Users\Aruneshwaran AR\AppData\Local\HostapdAIAnalyzer\flowise\node_modules\flowise-components\node_modules\@langchain\community\dist\llms\bedrock\web.cjs
+- C:\Users\Aruneshwaran AR\AppData\Local\HostapdAIAnalyzer\flowise\node_modules\flowise-components\node_modules\@langchain\community\dist\llms\bedrock\index.cjs
+- C:\Users\Aruneshwaran AR\AppData\Local\HostapdAIAnalyzer\flowise\node_modules\flowise-components\dist\nodes\llms\AWSBedrock\AWSBedrock.js
+- C:\Users\Aruneshwaran AR\AppData\Local\HostapdAIAnalyzer\flowise\node_modules\flowise\dist\NodesPool.js
+- C:\Users\Aruneshwaran AR\AppData\Local\HostapdAIAnalyzer\flowise\node_modules\flowise\dist\index.js
+- C:\Users\Aruneshwaran AR\AppData\Local\HostapdAIAnalyzer\flowise\node_modules\flowise\dist\commands\start.js
+- C:\Users\Aruneshwaran AR\AppData\Local\HostapdAIAnalyzer\flowise\node_modules\@oclif\core\lib\module-loader.js
+- C:\Users\Aruneshwaran AR\AppData\Local\HostapdAIAnalyzer\flowise\node_modules\@oclif\core\lib\help\index.js
+- C:\Users\Aruneshwaran AR\AppData\Local\HostapdAIAnalyzer\flowise\node_modules\@oclif\core\lib\errors\handle.js
+- C:\Users\Aruneshwaran AR\AppData\Local\HostapdAIAnalyzer\flowise\node_modules\@oclif\core\lib\errors\index.js
+- C:\Users\Aruneshwaran AR\AppData\Local\HostapdAIAnalyzer\flowise\node_modules\@oclif\core\lib\config\config.js
+- C:\Users\Aruneshwaran AR\AppData\Local\HostapdAIAnalyzer\flowise\node_modules\@oclif\core\lib\config\index.js
+- C:\Users\Aruneshwaran AR\AppData\Local\HostapdAIAnalyzer\flowise\node_modules\@oclif\core\lib\command.js
+- C:\Users\Aruneshwaran AR\AppData\Local\HostapdAIAnalyzer\flowise\node_modules\@oclif\core\lib\index.js
+- C:\Users\Aruneshwaran AR\AppData\Local\HostapdAIAnalyzer\flowise\node_modules\flowise\bin\run
+Error: Cannot find module '@smithy/eventstream-codec'
+Require stack:
+- C:\Users\Aruneshwaran AR\AppData\Local\HostapdAIAnalyzer\flowise\node_modules\flowise-components\node_modules\@langchain\community\dist\llms\bedrock\web.cjs
+- C:\Users\Aruneshwaran AR\AppData\Local\HostapdAIAnalyzer\flowise\node_modules\flowise-components\node_modules\@langchain\community\dist\llms\bedrock\index.cjs
+- C:\Users\Aruneshwaran AR\AppData\Local\HostapdAIAnalyzer\flowise\node_modules\flowise-components\dist\nodes\llms\AWSBedrock\AWSBedrock.js
+- C:\Users\Aruneshwaran AR\AppData\Local\HostapdAIAnalyzer\flowise\node_modules\flowise\dist\NodesPool.js
+- C:\Users\Aruneshwaran AR\AppData\Local\HostapdAIAnalyzer\flowise\node_modules\flowise\dist\index.js
+- C:\Users\Aruneshwaran AR\AppData\Local\HostapdAIAnalyzer\flowise\node_modules\flowise\dist\commands\start.js
+- C:\Users\Aruneshwaran AR\AppData\Local\HostapdAIAnalyzer\flowise\node_modules\@oclif\core\lib\module-loader.js
+- C:\Users\Aruneshwaran AR\AppData\Local\HostapdAIAnalyzer\flowise\node_modules\@oclif\core\lib\help\index.js
+- C:\Users\Aruneshwaran AR\AppData\Local\HostapdAIAnalyzer\flowise\node_modules\@oclif\core\lib\errors\handle.js
+- C:\Users\Aruneshwaran AR\AppData\Local\HostapdAIAnalyzer\flowise\node_modules\@oclif\core\lib\errors\index.js
+- C:\Users\Aruneshwaran AR\AppData\Local\HostapdAIAnalyzer\flowise\node_modules\@oclif\core\lib\config\config.js
+- C:\Users\Aruneshwaran AR\AppData\Local\HostapdAIAnalyzer\flowise\node_modules\@oclif\core\lib\config\index.js
+- C:\Users\Aruneshwaran AR\AppData\Local\HostapdAIAnalyzer\flowise\node_modules\@oclif\core\lib\command.js
+- C:\Users\Aruneshwaran AR\AppData\Local\HostapdAIAnalyzer\flowise\node_modules\@oclif\core\lib\index.js
+- C:\Users\Aruneshwaran AR\AppData\Local\HostapdAIAnalyzer\flowise\node_modules\flowise\bin\run
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1564:15)
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1118:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1142:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1169:12)
+    at Module._load (node:internal/modules/cjs/loader:1341:5)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+    at Module.require (node:internal/modules/cjs/loader:1674:12)
+    at require (node:internal/modules/helpers:157:16)
+    at Object.<anonymous> (C:\Users\Aruneshwaran AR\AppData\Local\HostapdAIAnalyzer\flowise\node_modules\flowise-components\node_modules\@langchain\community\dist\llms\bedrock\web.cjs:8:69)
+    at Module._compile (node:internal/modules/cjs/loader:1929:14)
+    at Object..js (node:internal/modules/cjs/loader:2060:10)
+    at Module.load (node:internal/modules/cjs/loader:1651:32)
+    at Module._load (node:internal/modules/cjs/loader:1443:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+    at Module.require (node:internal/modules/cjs/loader:1674:12)
+    at require (node:internal/modules/helpers:157:16)
+2026-10-07 23:02:58 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2026-10-07 23:02:58 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2026-10-07 23:02:58 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2026-10-07 23:02:58 [INFO]: 🔐 [server]: Auth initialized successfully
+2026-10-07 23:02:58 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2026-10-07 23:02:58 [INFO]: 💾 [server]: Cache pool initialized successfully
+2026-10-07 23:02:58 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2026-10-07 23:02:58 [INFO]: 📈 [server]: Telemetry initialized successfully
+2026-10-07 23:02:58 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2026-10-07 23:02:58 [INFO]: 📡 [server]: Webhook listener registry initialized successfully
+2026-10-07 23:02:58 [INFO]: [ScheduleBeat]: Initializing in non-queue mode
+2026-10-07 23:02:58 [WARN]: [ScheduleBeat]: Running in non-queue mode with node-cron and no distributed locking. If multiple API replicas are running, schedules will be executed once per replica. For High Availability (HA) deployments, enable queue mode (MODE.QUEUE) to avoid duplicate executions.
+2026-10-07 23:02:58 [INFO]: [ScheduleBeat]: Synced 0 schedule(s)
+2026-10-07 23:02:58 [INFO]: ⏰ [server]: ScheduleBeat initialized successfully
+2026-10-07 23:02:58 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2026-10-07 23:02:58 [INFO]: ⚡️ [server]: Flowise Server is listening at :3000
+2026-10-07 23:02:59 [INFO]: ⬆️ POST /api/v1/auth/login
+2026-10-07 23:03:00 [INFO]: 🖊 PUT /api/v1/chatflows/29b31c31-98ca-4fb6-906f-753442d6b8bd
+2026-10-07 23:03:01 [INFO]: ⬆️ POST /api/v1/auth/login
+2026-10-07 23:03:06 [INFO]: ⬆️ POST /api/v1/auth/login
+2026-10-07 23:03:06 [INFO]: ⬆️ POST /api/v1/internal-prediction/29b31c31-98ca-4fb6-906f-753442d6b8bd
+[92m[1m
+*****OUTPUT PREDICTION*****
+[0m[0m
+**Summary**: The uploaded hostapd log reports 6961790 lines, 17024 events in 71 active minutes, and 4 SSIDs (IoP_Dashboard, IoP_Testing, MRSNO, OWE) on 12 BSSs. There were 80 associated clients, 45 disconnected or never completed connections, and various errors and failures.
+
+**What happened**:
+1. **AP bring-up**: The log shows the AP bring-up process for each BSS (VAP), including creating the interface, setting keys, and configuring the beacon template.
+2. **Authentication and association**: Clients authenticated and associated with the AP using various authentication protocols (WPA2/WPA3/SAE) and association request/reply messages.
+3. **Deauthentication and disassociation**: Clients deauthenticated or disassociated from the AP due to various reasons, including inactivity timeout, local deauth request, or PMF mismatch.
+
+**Root-cause candidates**:
+
+1. **MLO security mismatch**: MLO security issues were detected 697 times for 3 clients, indicating a mismatch between affiliated links.
+2. **4-way handshake fails**: The 4-way handshake failed once for client DC:62:79:4D:EF:2F, suggesting an issue with key derivation or PMK/PMKSA handling.
+
+**Missing information**:
+
+* Security configuration (WPA2/WPA3/SAE/PMF/AKM) is not in the log - UNKNOWN unless hostapd.conf is supplied.
+* Channel width / tx power of the BSSs are not in the log (only band / frequency from frames).
+
+**Recommended debugging**:
+
+1. Reproduce the MLO security mismatch issue with this client on one band only and on MLO with PMKSA caching off; if only the MLO case fails, raise it with the driver/hostapd team.
+2. Investigate the 4-way handshake fail for client DC:62:79:4D:EF:2F by reproducing the issue and analyzing the log.
+
+**Final status**: The rule-based status is **FAIL**, indicating that there are findings related to MLO security, 4-way handshake fails, and other errors.
+2026-10-07 23:14:17 [INFO]: ⬆️ POST /api/v1/auth/login
+2026-10-07 23:14:18 [INFO]: ⬆️ POST /api/v1/internal-prediction/29b31c31-98ca-4fb6-906f-753442d6b8bd
+[92m[1m
+*****OUTPUT PREDICTION*****
+[0m[0m
+**Summary**: Client DC:62:79:4D:EF:2F joined IoP_Testing (phy00-mld0) with authentication and association success, but failed 4-way handshake and was deauthenticated by AP.
+
+**Client**: 
+MAC: DC:62:79:4D:EF:2F
+SSID: IoP_Testing
+Band: 2412 MHz
+Final State: DISCONNECTED
+
+**Timeline**:
+
+* Jun 26 09:07:57, line 475401: AUTH_SUCCESS
+* Jun 26 09:07:57, line 475524: ASSOC_SUCCESS
+* Jun 26 09:08:01, line 491945: DISCONNECT_REQUEST by AP reason=15
+* Jun 26 09:08:06, line 503116: DEAUTHENTICATION by AP
+* Jun 26 09:14:06, line 1129017: AUTH_FAILURE (3 times)
+* Jun 26 09:15:11, line 1229053: DEAUTHENTICATION by AP
+
+**Failure point**: The client failed the 4-way handshake and was deauthenticated by the AP. 
+
+**Evidence**: The log shows that the client's authentication and association were successful, but it failed the 4-way handshake and was deauthenticated.
+
+**Possible causes**: A DUT-side MLO/SAE issue is likely, a client bug is possible. It could also be due to the client not hearing the response from the AP during the Open System authentication or the client retrying too fast.
+
+**Historical observation**: No earlier tests contain this client (only the current test HOSTAPDWLR is stored).
+
+As there are no specific instructions for visual views, I will provide a general description of what it would look like. The VISUAL VIEW section could show a graph with the timeline of events for DC:62:79:4D:EF:2F, including the joins, authentications, associations, and disconnections.
+
+**Next steps**: Reproduce with this client on one band only and on MLO with PMKSA caching off; if only the MLO case fails, raise it with the driver/hostapd team with this log.
+2026-10-09 11:29:33 [INFO]: ⬆️ POST /api/v1/auth/login
+2026-10-09 11:29:35 [INFO]: 🖊 PUT /api/v1/chatflows/29b31c31-98ca-4fb6-906f-753442d6b8bd
+2026-10-09 11:29:35 [INFO]: ⬆️ POST /api/v1/auth/login
+2026-10-09 11:29:40 [INFO]: ⬆️ POST /api/v1/auth/login
+2026-10-09 11:29:41 [INFO]: ⬆️ POST /api/v1/internal-prediction/29b31c31-98ca-4fb6-906f-753442d6b8bd
+[92m[1m
+*****OUTPUT PREDICTION*****
+[0m[0m
+**Summary**
+The overall report highlights 5 high and 5 medium findings in the log. The top issues are:
+
+* Driver rejected beacon parameters 8 times.
+* Driver refused to add/program station state 3 times.
+* 959 out of 1138 authentication attempts ended with the client not ACKing the AP's authentication response, across 39 clients.
+* 79 4-way handshake failures and 17 possible PSK mismatch events were observed.
+
+**What happened**
+The log shows a mix of successful and failed connections. The most common issues are:
+
+* Authentication requests not ACKed by the client (959 times).
+* Association requests not responded to by the AP (919 times).
+* Deauthentications triggered by the client or the AP (624 times).
+* Unprotected deauth/disassoc events due to PMF station (472 times).
+
+**Root-cause candidates**
+1. **MLO security mismatch**: MLO security mismatch between affiliated links was observed 697 times for 3 clients. The DUT rejected additional links with status 43 (invalid AKM). Recommendation: Make key management identical on every BSS of the same AP MLD.
+2. **4-way handshake fails**: DC:62:79:4D:EF:2F failed the 4-way handshake once (reason 15). The client sent EAPOL-Key replies before each timeout, suggesting a DUT-side MLO/SAE issue.
+
+**Recommended debugging**
+To further investigate these findings, we recommend:
+
+* Capturing Wi-Fi reloads to understand the root cause of the 1 cycle.
+* Analyzing the AP's beacon parameters and station state programming to address the driver issues.
+* Reproducing the authentication and association request failures with specific clients on different bands.
+
+**Final status**
+The overall rule-based status is **FAIL**, indicating that there are significant connectivity issues in the log.
+2026-10-09 11:41:30 [INFO]: ⬆️ POST /api/v1/auth/login
+2026-10-09 11:41:31 [INFO]: ⬆️ POST /api/v1/internal-prediction/29b31c31-98ca-4fb6-906f-753442d6b8bd
+[92m[1m
+*****OUTPUT PREDICTION*****
+[0m[0m
+**Summary**: There were 89 client disconnections observed in the log. The majority (54) were due to clients leaving on their own.
+
+**Details**
+
+Here is the list of deauth/disassoc events:
+
+* 1. 90:48:6C:6D:E6:D3 [IoP_Testing]: deauth 144 (sent by client), disassoc 2, reason codes 4, 15; final state DISCONNECTED
+* 2. 2C:A7:EF:3A:7A:DB [IoP_Dashboard]: deauth 50 (sent by AP), reason code 2, 15; final state CONNECTED
+* 3. C4:E7:AE:0E:63:7D [IoP_Testing]: deauth 40 (sent by client), disassoc 2, reason codes 3, 15; final state DISCONNECTED
+* ...
+* 21. F8:17:2D:A7:E3:D3 [IoP_Testing]: deauth 6 (sent by AP), disassoc 2, reason code 4; final state DISCONNECTED
+
+**Evidence**
+
+These events are reported in the hostapd log with timestamps and line numbers.
+
+**What it means**
+
+The majority of client disconnections were due to clients leaving on their own. The deauth/disassoc events were triggered by various reasons including client timeouts, AP-side disconnections, and frames not being acknowledged.
+2026-10-09 11:48:50 [INFO]: ⬆️ POST /api/v1/internal-prediction/29b31c31-98ca-4fb6-906f-753442d6b8bd
+[92m[1m
+*****OUTPUT PREDICTION*****
+[0m[0m
+**Summary**
+The uploaded hostapd log from the test HOSTAPDWLR reports various events, including AP bring-up and Wi-Fi 7 MLD configuration. The log contains information about authentication requests, association requests, deauthentications, disassociations, reconnections, and errors. The analysis reveals several findings, including:
+
+* 56 clients connected to the AP
+* 89 disconnects reported (mostly due to inactivity timeouts)
+* 1735 join failures recorded
+* 1 Wi-Fi reload occurred
+* No captures were made
+
+**Root-cause candidates**
+
+1. **MLO security mismatch**: MLO links between affiliated BSSs on different bands may have been rejected by the DUT with status 43 (invalid AKM) due to SAE (AKM 8) being offered but not accepted. Recommendation: Make key management identical on every BSS of the same AP MLD and retest MLO clients.
+2. **4-way handshake fails**: DC:62:79:4D:EF:2F failed the 4-way handshake once with reason code 15, possibly due to PMK / PMKSA handling issues between the client and DUT. Recommendation: Reproduce with this client on one band only and with MLO/PMKSA caching off to determine if it's a driver/hostapd or client issue.
+
+**Missing information**
+- Security configuration (WPA2/WPA3/SAE/PMF/AKM) is not in the log - UNKNOWN unless hostapd.conf is supplied.
+- Channel width / tx power of the BSSs are not in the log (only band / frequency from frames).
+
+[[REPORT]]
